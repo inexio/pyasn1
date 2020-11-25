@@ -13,6 +13,9 @@ protocol (SNMP) but then generalized to be suitable for a wide range
 of protocols based on
 [ASN.1 specification](https://www.itu.int/rec/dologin_pub.asp?lang=e&id=T-REC-X.208-198811-W!!PDF-E&type=items).
 
+[Original project](https://github.com/etingof/pyasn1) by [Ilya Etingof](https://github.com/etingof) seems not to be continued anymore.
+Because of that, we try to maintain / enhance ASN.1 library for Python.
+
 Features
 --------
 
@@ -180,6 +183,8 @@ If something does not work as expected,
 post your question [on Stack Overflow](https://stackoverflow.com/questions/ask)
 or try browsing pyasn1 
 [mailing list archives](https://sourceforge.net/p/pyasn1/mailman/pyasn1-users/).
+
+If you want to contact us, please mail to the [Thola Team](mailto:snmplabs@thola.io)
 
 Copyright (c) 2005-2020, [Ilya Etingof](mailto:etingof@gmail.com).
 All rights reserved.
