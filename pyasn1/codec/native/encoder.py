@@ -59,6 +59,11 @@ class ObjectIdentifierEncoder(AbstractItemEncoder):
         return str(value)
 
 
+class RelativeOIDEncoder(AbstractItemEncoder):
+    def encode(self, value, encodeFun, **options):
+        return str(value)
+
+
 class RealEncoder(AbstractItemEncoder):
     def encode(self, value, encodeFun, **options):
         return float(value)
@@ -108,6 +113,7 @@ TAG_MAP = {
     univ.Integer.tagSet: IntegerEncoder(),
     univ.BitString.tagSet: BitStringEncoder(),
     univ.OctetString.tagSet: OctetStringEncoder(),
+    univ.RelativeOID.tagSet: RelativeOIDEncoder(),
     univ.Null.tagSet: NullEncoder(),
     univ.ObjectIdentifier.tagSet: ObjectIdentifierEncoder(),
     univ.Enumerated.tagSet: IntegerEncoder(),
