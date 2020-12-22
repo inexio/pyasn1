@@ -353,7 +353,7 @@ class ObjectIdentifierEncoder(AbstractItemEncoder):
 
 
     class RelativeOIDEncoder(AbstractItemEncoder):
-    supportIndefLenMode = False
+        supportIndefLenMode = False
 
     def encodeValue(self, value, asn1Spec, encodeFun, **options):
         if asn1Spec is not None:

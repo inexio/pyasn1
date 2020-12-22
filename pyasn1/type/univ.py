@@ -2190,8 +2190,7 @@ class SequenceOfAndSetOfBase(base.ConstructedAsn1Type):
 
         return False
 
-
-     def checkConsistency(self):
+    def checkConsistency(self):
         """
         Raises
         ------
@@ -2835,7 +2834,7 @@ class SequenceAndSetBase(base.ConstructedAsn1Type):
         return False
 
 
-     def checkConsistency(self):
+    def checkConsistency(self):
         """
         Raises
         ------
