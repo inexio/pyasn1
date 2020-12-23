@@ -1,4 +1,3 @@
-
 ASN.1 library for Python
 ------------------------
 [![PyPI](https://img.shields.io/pypi/v/pyasn1.svg?maxAge=2592000)](https://pypi.org/project/pyasn1)
