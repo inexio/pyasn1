@@ -352,8 +352,8 @@ class ObjectIdentifierEncoder(AbstractItemEncoder):
         return octets, False, False
 
 
-    class RelativeOIDEncoder(AbstractItemEncoder):
-        supportIndefLenMode = False
+class RelativeOIDEncoder(AbstractItemEncoder):
+    supportIndefLenMode = False
 
     def encodeValue(self, value, asn1Spec, encodeFun, **options):
         if asn1Spec is not None:
